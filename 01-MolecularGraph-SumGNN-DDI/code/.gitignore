@@ -1,0 +1,18 @@
+# Notebook and Python transient files
+**/.ipynb_checkpoints/
+**/__pycache__/
+**/.pytest_cache/
+**/processed/
+*.py[cod]
+
+# Local molecular data and generated model artifacts (review licenses before publishing)
+**/molecular_features*.csv
+**/gnn_ready_drug_graphs.pt
+**/drug_embeddings*.npy
+**/DB_molecular_feats_new*.pkl
+**/pca_*.pkl
+**/PCA.txt
+
+# Machine-specific/private files
+.env
+.env.*
